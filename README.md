@@ -16,7 +16,7 @@ Get a shortened URL by posting it to `/`, in a JSON object:
 
 ```
 $ curl -X POST --data '{"url":"http://google.com"}' http://localhost:1234
-{"original_url":"http://google.com","short_url":"http://my.host:1234/c7b920f57e"}
+{"originalurl":"http://google.com","shorturl":"http://my.host:1234/c7b920f57e"}
 $
 ```
 A json object with entries `original_url` and `short_url` is returned.
